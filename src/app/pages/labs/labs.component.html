@@ -3,3 +3,14 @@
 <ul>
     <li *ngFor="let task of tasks">{{task}}</li>
 </ul>
+<hr>
+<h2>{{'hola'.repeat(4)}}</h2>
+<p>Hola soy: {{nombre}}</p>
+<hr>
+<img [src]="img" alt="">
+<input type="text" name="" [value]="nombre">
+<button type="button" [disabled]="disabled">Click me</button>
+<hr>
+<p>Acceder propiedades desde objeto</p>
+<p>Persona:{{ persona.name }}</p>
+<p><img [src]="persona.avatar" alt=""></p>
