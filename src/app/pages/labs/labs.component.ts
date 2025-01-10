@@ -36,4 +36,9 @@ export class LabsComponent {
     console.log(Evento);
   }
 
+  keydownandler(event:KeyboardEvent){
+    const input = event.target as HTMLInputElement;
+    alert(input.value);
+  }
+
 }
