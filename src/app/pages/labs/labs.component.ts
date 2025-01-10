@@ -23,6 +23,17 @@ export class LabsComponent {
   //Definir objeto
   persona ={
     name:"Juan Carlos Avella G",
-    avatar:"https://static.vecteezy.com/system/resources/thumbnails/027/951/137/small/stylish-spectacles-guy-3d-avatar-character-illustrations-png.png"
+    avatar:"https://static.vecteezy.com/system/resources/thumbnails/027/951/137/small/stylish-spectacles-guy-3d-avatar-character-illustrations-png.png",
+    annio:2024
   }
+
+  //Evento del boton clic
+  clickHandler(){
+    alert('Hola')  
+  }
+
+  changeHandler(Evento:Event){
+    console.log(Evento);
+  }
+
 }
